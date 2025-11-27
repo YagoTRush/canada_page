@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TikTok Sans';
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://i.pinimg.com/1200x/0c/82/e0/0c82e09fd0ac51765fabd040fb3c481c.jpg") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-opacidade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.425);
+    top: 0;
+    left: 0;
+}
+
+.cadastro {
+    width: 450px;
+    background: rgb(202, 202, 202);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    margin: 0 0 15px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: white;
+    margin: 10px auto 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+.login-entrar {
+    background: rgb(196, 39, 39);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(88, 5, 1);
+    margin-bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #ffd4d4;
+}
+
+.bt {
+    display: block;
+    width: 140px;
+    margin: 15px auto 0;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 80, 70, 0.9);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bt:hover {
+    background: rgba(255, 30, 40, 0.9);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    margin-bottom: 11.8rem;
+}
+
+
+header img {
+    width: 9.4rem;
+    height: 9.4rem;
+    object-fit: contain;
+}
+
+
+header ul {
+    display: flex;
+    gap: 3rem;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: #d52b1e;
+}

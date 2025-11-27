@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TikTok Sans';
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://media.canva.com/v2/image-resize/format:PNG/height:640/quality:100/uri:ifs%3A%2F%2FM%2Fccb6fa78-6b9d-405e-9d30-8e011f7b4a28/watermark:F/width:1280?csig=AAAAAAAAAAAAAAAAAAAAAJ8hN6Odoi-jDv-zR8PZroJoQKv1tAVYV29v4zM6v_sD&exp=1764284318&osig=AAAAAAAAAAAAAAAAAAAAAB_ss5u_NYxT6-yKmgrpIAkn8jN1FHEfj3IXMZSnjf5R&signer=media-rpc&x-canva-quality=screen_2x") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-opacidade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    top: 0;
+    left: 0;
+}
+
+.cadastro {
+    width: 450px;
+    background: rgba(255, 0, 0, 0.65);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    margin: 0 0 15px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: white;
+    margin: 10px auto 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+.entrar {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 80, 70, 0.8);
+    margin-bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #ffd4d4;
+}
+
+.bt {
+    display: block;
+    width: 140px;
+    margin: 15px auto 0;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 80, 70, 0.9);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bt:hover {
+    background: rgba(255, 30, 40, 0.9);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
