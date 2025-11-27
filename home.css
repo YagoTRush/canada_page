@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
-    margin-bottom: 11.8rem;
+    margin-bottom: 4.4rem;
     text-align: center;
 }
 
@@ -77,9 +77,10 @@ header a:hover {
 
 .titulo-principal {
     text-align: center;
-    font-size: 5.6rem;
+    font-size: 12rem;
     color: #c0392b;
     margin-bottom: 40px;
+    font-family: "Lexend", sans-serif;
 }
 
 .box {
@@ -94,6 +95,7 @@ header a:hover {
     color: #c0392b;
     font-size: 2.4rem;
     margin-bottom: 1.7rem;
+    font-family: "Lexend", sans-serif;
 }
 
 .texto-box p {
@@ -135,7 +137,7 @@ hr {
     margin: 40px 0;
 }
 
-.scroll-top {
+.scroll {
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -148,6 +150,6 @@ hr {
     transition: 0.3s;
 }
 
-.scroll-top:hover {
+.scroll:hover {
     transform: scale(1.1);
 }
